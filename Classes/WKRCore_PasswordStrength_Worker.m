@@ -115,6 +115,8 @@ NSString* const kWkrRegexPasswordOneSymbol      = @"^(?=.*[!@#$%&_]).*$";   // S
     }
 }
 
+#pragma mark - Utility methods
+
 - (int)utilityValidateString:(NSString*)string
                  withPattern:(NSString*)pattern
                caseSensitive:(BOOL)caseSensitive
