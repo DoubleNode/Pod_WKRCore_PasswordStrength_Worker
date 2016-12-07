@@ -11,8 +11,4 @@
 
 @interface WKRCore_PasswordStrength_Worker : WKR_Base_Worker<PTCLPasswordStrength_Protocol>
 
-#pragma mark - Business Logic
-
-- (WKRPasswordStrengthType)doCheckPasswordStrength:(nonnull NSString*)password;
-
 @end
