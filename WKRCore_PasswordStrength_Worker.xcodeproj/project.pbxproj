@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15BD62BC052C9190697836B4 /* Pods_WKRCore_PasswordStrength_Worker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8F58F7CB8315D97798CD68 /* Pods_WKRCore_PasswordStrength_Worker.framework */; };
+		6AE0CFC31DF895F1009727C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0CFC21DF895F1009727C1 /* main.m */; };
+		6AE0CFC61DF895F1009727C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0CFC51DF895F1009727C1 /* AppDelegate.m */; };
+		6AE0CFC91DF895F1009727C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0CFC81DF895F1009727C1 /* ViewController.m */; };
+		6AE0CFCC1DF895F1009727C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE0CFCA1DF895F1009727C1 /* Main.storyboard */; };
+		6AE0CFCE1DF895F1009727C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE0CFCD1DF895F1009727C1 /* Assets.xcassets */; };
+		6AE0CFD11DF895F1009727C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE0CFCF1DF895F1009727C1 /* LaunchScreen.storyboard */; };
+		6AE0CFDC1DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0CFDB1DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests.m */; };
+		6AE0CFE71DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0CFE61DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests.m */; };
+		6AE0CFF81DF8965B009727C1 /* WKRCore_PasswordStrength_Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0CFF71DF8965B009727C1 /* WKRCore_PasswordStrength_Worker.m */; };
+		6AE0CFFB1DF89663009727C1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0CFF91DF89663009727C1 /* README.md */; };
+		6AE0CFFC1DF89663009727C1 /* WKRCore_PasswordStrength_Worker.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6AE0CFFA1DF89663009727C1 /* WKRCore_PasswordStrength_Worker.podspec */; };
+		D2264BBB1C13D31F89A4D2E2 /* Pods_WKRCore_PasswordStrength_WorkerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EAAF798155DBEE8730288EC /* Pods_WKRCore_PasswordStrength_WorkerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AE0CFD81DF895F2009727C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AE0CFB61DF895F1009727C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AE0CFBD1DF895F1009727C1;
+			remoteInfo = WKRCore_PasswordStrength_Worker;
+		};
+		6AE0CFE31DF895F2009727C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AE0CFB61DF895F1009727C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AE0CFBD1DF895F1009727C1;
+			remoteInfo = WKRCore_PasswordStrength_Worker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027418D087E4279CF5C854D2 /* Pods-WKRCore_PasswordStrength_WorkerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKRCore_PasswordStrength_WorkerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKRCore_PasswordStrength_WorkerTests/Pods-WKRCore_PasswordStrength_WorkerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		129FBDBE61638085642CA932 /* Pods-WKRCore_PasswordStrength_Worker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKRCore_PasswordStrength_Worker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKRCore_PasswordStrength_Worker/Pods-WKRCore_PasswordStrength_Worker.debug.xcconfig"; sourceTree = "<group>"; };
+		4990F7DF9BDBF26ECE6BE5CF /* Pods-WKRCore_PasswordStrength_Worker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKRCore_PasswordStrength_Worker.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKRCore_PasswordStrength_Worker/Pods-WKRCore_PasswordStrength_Worker.release.xcconfig"; sourceTree = "<group>"; };
+		4EAAF798155DBEE8730288EC /* Pods_WKRCore_PasswordStrength_WorkerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKRCore_PasswordStrength_WorkerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE0CFBE1DF895F1009727C1 /* WKRCore_PasswordStrength_Worker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKRCore_PasswordStrength_Worker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE0CFC21DF895F1009727C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AE0CFC41DF895F1009727C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AE0CFC51DF895F1009727C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AE0CFC71DF895F1009727C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6AE0CFC81DF895F1009727C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6AE0CFCB1DF895F1009727C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AE0CFCD1DF895F1009727C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AE0CFD01DF895F1009727C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AE0CFD21DF895F1009727C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE0CFD71DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKRCore_PasswordStrength_WorkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE0CFDB1DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKRCore_PasswordStrength_WorkerTests.m; sourceTree = "<group>"; };
+		6AE0CFDD1DF895F2009727C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE0CFE21DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKRCore_PasswordStrength_WorkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE0CFE61DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKRCore_PasswordStrength_WorkerUITests.m; sourceTree = "<group>"; };
+		6AE0CFE81DF895F2009727C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE0CFF61DF8965B009727C1 /* WKRCore_PasswordStrength_Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKRCore_PasswordStrength_Worker.h; path = Classes/WKRCore_PasswordStrength_Worker.h; sourceTree = "<group>"; };
+		6AE0CFF71DF8965B009727C1 /* WKRCore_PasswordStrength_Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKRCore_PasswordStrength_Worker.m; path = Classes/WKRCore_PasswordStrength_Worker.m; sourceTree = "<group>"; };
+		6AE0CFF91DF89663009727C1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6AE0CFFA1DF89663009727C1 /* WKRCore_PasswordStrength_Worker.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WKRCore_PasswordStrength_Worker.podspec; sourceTree = "<group>"; };
+		7E8F58F7CB8315D97798CD68 /* Pods_WKRCore_PasswordStrength_Worker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKRCore_PasswordStrength_Worker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D600E823C3B9D31C7E8E80AA /* Pods-WKRCore_PasswordStrength_WorkerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKRCore_PasswordStrength_WorkerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKRCore_PasswordStrength_WorkerTests/Pods-WKRCore_PasswordStrength_WorkerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AE0CFBB1DF895F1009727C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BD62BC052C9190697836B4 /* Pods_WKRCore_PasswordStrength_Worker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE0CFD41DF895F2009727C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2264BBB1C13D31F89A4D2E2 /* Pods_WKRCore_PasswordStrength_WorkerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE0CFDF1DF895F2009727C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AE0CFB51DF895F1009727C1 = {
+			isa = PBXGroup;
+			children = (
+				6AE0CFF41DF895FB009727C1 /* Cocoapod */,
+				6AE0CFC01DF895F1009727C1 /* WKRCore_PasswordStrength_Worker */,
+				6AE0CFDA1DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests */,
+				6AE0CFE51DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests */,
+				6AE0CFBF1DF895F1009727C1 /* Products */,
+				7C2120816E4541B8A50896A6 /* Pods */,
+				9BF0AC9E85AB9EF73513DAAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AE0CFBF1DF895F1009727C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AE0CFBE1DF895F1009727C1 /* WKRCore_PasswordStrength_Worker.app */,
+				6AE0CFD71DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests.xctest */,
+				6AE0CFE21DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AE0CFC01DF895F1009727C1 /* WKRCore_PasswordStrength_Worker */ = {
+			isa = PBXGroup;
+			children = (
+				6AE0CFC41DF895F1009727C1 /* AppDelegate.h */,
+				6AE0CFC51DF895F1009727C1 /* AppDelegate.m */,
+				6AE0CFC71DF895F1009727C1 /* ViewController.h */,
+				6AE0CFC81DF895F1009727C1 /* ViewController.m */,
+				6AE0CFCA1DF895F1009727C1 /* Main.storyboard */,
+				6AE0CFCD1DF895F1009727C1 /* Assets.xcassets */,
+				6AE0CFCF1DF895F1009727C1 /* LaunchScreen.storyboard */,
+				6AE0CFD21DF895F1009727C1 /* Info.plist */,
+				6AE0CFC11DF895F1009727C1 /* Supporting Files */,
+			);
+			path = WKRCore_PasswordStrength_Worker;
+			sourceTree = "<group>";
+		};
+		6AE0CFC11DF895F1009727C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AE0CFC21DF895F1009727C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AE0CFDA1DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AE0CFDB1DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests.m */,
+				6AE0CFDD1DF895F2009727C1 /* Info.plist */,
+			);
+			path = WKRCore_PasswordStrength_WorkerTests;
+			sourceTree = "<group>";
+		};
+		6AE0CFE51DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AE0CFE61DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests.m */,
+				6AE0CFE81DF895F2009727C1 /* Info.plist */,
+			);
+			path = WKRCore_PasswordStrength_WorkerUITests;
+			sourceTree = "<group>";
+		};
+		6AE0CFF41DF895FB009727C1 /* Cocoapod */ = {
+			isa = PBXGroup;
+			children = (
+				6AE0CFF91DF89663009727C1 /* README.md */,
+				6AE0CFFA1DF89663009727C1 /* WKRCore_PasswordStrength_Worker.podspec */,
+				6AE0CFF51DF89601009727C1 /* Classes */,
+			);
+			name = Cocoapod;
+			sourceTree = "<group>";
+		};
+		6AE0CFF51DF89601009727C1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6AE0CFF61DF8965B009727C1 /* WKRCore_PasswordStrength_Worker.h */,
+				6AE0CFF71DF8965B009727C1 /* WKRCore_PasswordStrength_Worker.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		7C2120816E4541B8A50896A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				129FBDBE61638085642CA932 /* Pods-WKRCore_PasswordStrength_Worker.debug.xcconfig */,
+				4990F7DF9BDBF26ECE6BE5CF /* Pods-WKRCore_PasswordStrength_Worker.release.xcconfig */,
+				027418D087E4279CF5C854D2 /* Pods-WKRCore_PasswordStrength_WorkerTests.debug.xcconfig */,
+				D600E823C3B9D31C7E8E80AA /* Pods-WKRCore_PasswordStrength_WorkerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9BF0AC9E85AB9EF73513DAAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E8F58F7CB8315D97798CD68 /* Pods_WKRCore_PasswordStrength_Worker.framework */,
+				4EAAF798155DBEE8730288EC /* Pods_WKRCore_PasswordStrength_WorkerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AE0CFBD1DF895F1009727C1 /* WKRCore_PasswordStrength_Worker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE0CFEB1DF895F2009727C1 /* Build configuration list for PBXNativeTarget "WKRCore_PasswordStrength_Worker" */;
+			buildPhases = (
+				D95EF84C637EFA4B77285A1B /* [CP] Check Pods Manifest.lock */,
+				6AE0CFBA1DF895F1009727C1 /* Sources */,
+				6AE0CFBB1DF895F1009727C1 /* Frameworks */,
+				6AE0CFBC1DF895F1009727C1 /* Resources */,
+				524CEDAF0610C9B3CEDB3DD5 /* [CP] Embed Pods Frameworks */,
+				6D6A0042F4B3D5B83C8D2330 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKRCore_PasswordStrength_Worker;
+			productName = WKRCore_PasswordStrength_Worker;
+			productReference = 6AE0CFBE1DF895F1009727C1 /* WKRCore_PasswordStrength_Worker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AE0CFD61DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE0CFEE1DF895F2009727C1 /* Build configuration list for PBXNativeTarget "WKRCore_PasswordStrength_WorkerTests" */;
+			buildPhases = (
+				FA1ED4785D07A50A27E24F4E /* [CP] Check Pods Manifest.lock */,
+				6AE0CFD31DF895F2009727C1 /* Sources */,
+				6AE0CFD41DF895F2009727C1 /* Frameworks */,
+				6AE0CFD51DF895F2009727C1 /* Resources */,
+				23ED1171F7A948D8E9366F2A /* [CP] Embed Pods Frameworks */,
+				2E81D8AE2B38C6115E6521F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AE0CFD91DF895F2009727C1 /* PBXTargetDependency */,
+			);
+			name = WKRCore_PasswordStrength_WorkerTests;
+			productName = WKRCore_PasswordStrength_WorkerTests;
+			productReference = 6AE0CFD71DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AE0CFE11DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE0CFF11DF895F2009727C1 /* Build configuration list for PBXNativeTarget "WKRCore_PasswordStrength_WorkerUITests" */;
+			buildPhases = (
+				6AE0CFDE1DF895F2009727C1 /* Sources */,
+				6AE0CFDF1DF895F2009727C1 /* Frameworks */,
+				6AE0CFE01DF895F2009727C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AE0CFE41DF895F2009727C1 /* PBXTargetDependency */,
+			);
+			name = WKRCore_PasswordStrength_WorkerUITests;
+			productName = WKRCore_PasswordStrength_WorkerUITests;
+			productReference = 6AE0CFE21DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AE0CFB61DF895F1009727C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DoubleNode.com;
+				TargetAttributes = {
+					6AE0CFBD1DF895F1009727C1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T864D3RXRZ;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					6AE0CFD61DF895F2009727C1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T864D3RXRZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6AE0CFBD1DF895F1009727C1;
+					};
+					6AE0CFE11DF895F2009727C1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T864D3RXRZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6AE0CFBD1DF895F1009727C1;
+					};
+				};
+			};
+			buildConfigurationList = 6AE0CFB91DF895F1009727C1 /* Build configuration list for PBXProject "WKRCore_PasswordStrength_Worker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AE0CFB51DF895F1009727C1;
+			productRefGroup = 6AE0CFBF1DF895F1009727C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AE0CFBD1DF895F1009727C1 /* WKRCore_PasswordStrength_Worker */,
+				6AE0CFD61DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests */,
+				6AE0CFE11DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AE0CFBC1DF895F1009727C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE0CFD11DF895F1009727C1 /* LaunchScreen.storyboard in Resources */,
+				6AE0CFCE1DF895F1009727C1 /* Assets.xcassets in Resources */,
+				6AE0CFFC1DF89663009727C1 /* WKRCore_PasswordStrength_Worker.podspec in Resources */,
+				6AE0CFCC1DF895F1009727C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE0CFD51DF895F2009727C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE0CFE01DF895F2009727C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23ED1171F7A948D8E9366F2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKRCore_PasswordStrength_WorkerTests/Pods-WKRCore_PasswordStrength_WorkerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E81D8AE2B38C6115E6521F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKRCore_PasswordStrength_WorkerTests/Pods-WKRCore_PasswordStrength_WorkerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		524CEDAF0610C9B3CEDB3DD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKRCore_PasswordStrength_Worker/Pods-WKRCore_PasswordStrength_Worker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D6A0042F4B3D5B83C8D2330 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKRCore_PasswordStrength_Worker/Pods-WKRCore_PasswordStrength_Worker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95EF84C637EFA4B77285A1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA1ED4785D07A50A27E24F4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AE0CFBA1DF895F1009727C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE0CFC91DF895F1009727C1 /* ViewController.m in Sources */,
+				6AE0CFF81DF8965B009727C1 /* WKRCore_PasswordStrength_Worker.m in Sources */,
+				6AE0CFFB1DF89663009727C1 /* README.md in Sources */,
+				6AE0CFC61DF895F1009727C1 /* AppDelegate.m in Sources */,
+				6AE0CFC31DF895F1009727C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE0CFD31DF895F2009727C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE0CFDC1DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE0CFDE1DF895F2009727C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE0CFE71DF895F2009727C1 /* WKRCore_PasswordStrength_WorkerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AE0CFD91DF895F2009727C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AE0CFBD1DF895F1009727C1 /* WKRCore_PasswordStrength_Worker */;
+			targetProxy = 6AE0CFD81DF895F2009727C1 /* PBXContainerItemProxy */;
+		};
+		6AE0CFE41DF895F2009727C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AE0CFBD1DF895F1009727C1 /* WKRCore_PasswordStrength_Worker */;
+			targetProxy = 6AE0CFE31DF895F2009727C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AE0CFCA1DF895F1009727C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AE0CFCB1DF895F1009727C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AE0CFCF1DF895F1009727C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AE0CFD01DF895F1009727C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AE0CFE91DF895F2009727C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AE0CFEA1DF895F2009727C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AE0CFEC1DF895F2009727C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129FBDBE61638085642CA932 /* Pods-WKRCore_PasswordStrength_Worker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = WKRCore_PasswordStrength_Worker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleNode.WKRCore-PasswordStrength-Worker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6AE0CFED1DF895F2009727C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4990F7DF9BDBF26ECE6BE5CF /* Pods-WKRCore_PasswordStrength_Worker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = WKRCore_PasswordStrength_Worker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleNode.WKRCore-PasswordStrength-Worker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6AE0CFEF1DF895F2009727C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027418D087E4279CF5C854D2 /* Pods-WKRCore_PasswordStrength_WorkerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = WKRCore_PasswordStrength_WorkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleNode.WKRCore-PasswordStrength-WorkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKRCore_PasswordStrength_Worker.app/WKRCore_PasswordStrength_Worker";
+			};
+			name = Debug;
+		};
+		6AE0CFF01DF895F2009727C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D600E823C3B9D31C7E8E80AA /* Pods-WKRCore_PasswordStrength_WorkerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = WKRCore_PasswordStrength_WorkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleNode.WKRCore-PasswordStrength-WorkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKRCore_PasswordStrength_Worker.app/WKRCore_PasswordStrength_Worker";
+			};
+			name = Release;
+		};
+		6AE0CFF21DF895F2009727C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = WKRCore_PasswordStrength_WorkerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleNode.WKRCore-PasswordStrength-WorkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKRCore_PasswordStrength_Worker;
+			};
+			name = Debug;
+		};
+		6AE0CFF31DF895F2009727C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = WKRCore_PasswordStrength_WorkerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleNode.WKRCore-PasswordStrength-WorkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKRCore_PasswordStrength_Worker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AE0CFB91DF895F1009727C1 /* Build configuration list for PBXProject "WKRCore_PasswordStrength_Worker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE0CFE91DF895F2009727C1 /* Debug */,
+				6AE0CFEA1DF895F2009727C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE0CFEB1DF895F2009727C1 /* Build configuration list for PBXNativeTarget "WKRCore_PasswordStrength_Worker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE0CFEC1DF895F2009727C1 /* Debug */,
+				6AE0CFED1DF895F2009727C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE0CFEE1DF895F2009727C1 /* Build configuration list for PBXNativeTarget "WKRCore_PasswordStrength_WorkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE0CFEF1DF895F2009727C1 /* Debug */,
+				6AE0CFF01DF895F2009727C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE0CFF11DF895F2009727C1 /* Build configuration list for PBXNativeTarget "WKRCore_PasswordStrength_WorkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE0CFF21DF895F2009727C1 /* Debug */,
+				6AE0CFF31DF895F2009727C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AE0CFB61DF895F1009727C1 /* Project object */;
+}
