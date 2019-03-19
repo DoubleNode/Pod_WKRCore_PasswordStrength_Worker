@@ -264,7 +264,7 @@
 		6AE0CFB61DF895F1009727C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = DoubleNode.com;
 				TargetAttributes = {
 					6AE0CFBD1DF895F1009727C1 = {
@@ -292,6 +292,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -342,7 +343,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WKRCore_PasswordStrength_WorkerTests/Pods-WKRCore_PasswordStrength_WorkerTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-WKRCore_PasswordStrength_WorkerTests/Pods-WKRCore_PasswordStrength_WorkerTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Gizou/Gizou.framework",
 				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
 			);
@@ -353,7 +354,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKRCore_PasswordStrength_WorkerTests/Pods-WKRCore_PasswordStrength_WorkerTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WKRCore_PasswordStrength_WorkerTests/Pods-WKRCore_PasswordStrength_WorkerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		524CEDAF0610C9B3CEDB3DD5 /* [CP] Embed Pods Frameworks */ = {
@@ -362,7 +363,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WKRCore_PasswordStrength_Worker/Pods-WKRCore_PasswordStrength_Worker-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-WKRCore_PasswordStrength_Worker/Pods-WKRCore_PasswordStrength_Worker-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/ColorUtils/ColorUtils.framework",
 				"${BUILT_PRODUCTS_DIR}/DNCProtocols/DNCProtocols.framework",
@@ -381,7 +382,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKRCore_PasswordStrength_Worker/Pods-WKRCore_PasswordStrength_Worker-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WKRCore_PasswordStrength_Worker/Pods-WKRCore_PasswordStrength_Worker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D95EF84C637EFA4B77285A1B /* [CP] Check Pods Manifest.lock */ = {
@@ -489,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -546,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -597,14 +600,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 129FBDBE61638085642CA932 /* Pods-WKRCore_PasswordStrength_Worker.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T864D3RXRZ;
 				INFOPLIST_FILE = WKRCore_PasswordStrength_Worker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleNode.WKRCore-PasswordStrength-Worker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -612,14 +615,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4990F7DF9BDBF26ECE6BE5CF /* Pods-WKRCore_PasswordStrength_Worker.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T864D3RXRZ;
 				INFOPLIST_FILE = WKRCore_PasswordStrength_Worker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DoubleNode.WKRCore-PasswordStrength-Worker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
