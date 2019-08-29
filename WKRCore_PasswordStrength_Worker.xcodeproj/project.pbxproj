@@ -43,6 +43,7 @@
 		129FBDBE61638085642CA932 /* Pods-WKRCore_PasswordStrength_Worker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKRCore_PasswordStrength_Worker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKRCore_PasswordStrength_Worker/Pods-WKRCore_PasswordStrength_Worker.debug.xcconfig"; sourceTree = "<group>"; };
 		4990F7DF9BDBF26ECE6BE5CF /* Pods-WKRCore_PasswordStrength_Worker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKRCore_PasswordStrength_Worker.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKRCore_PasswordStrength_Worker/Pods-WKRCore_PasswordStrength_Worker.release.xcconfig"; sourceTree = "<group>"; };
 		4EAAF798155DBEE8730288EC /* Pods_WKRCore_PasswordStrength_WorkerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKRCore_PasswordStrength_WorkerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC77C6B23186E7B004EF336 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6AE0CFBE1DF895F1009727C1 /* WKRCore_PasswordStrength_Worker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKRCore_PasswordStrength_Worker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE0CFC21DF895F1009727C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6AE0CFC41DF895F1009727C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +163,7 @@
 		6AE0CFF41DF895FB009727C1 /* Cocoapod */ = {
 			isa = PBXGroup;
 			children = (
+				6AC77C6B23186E7B004EF336 /* LICENSE */,
 				6AE0CFF91DF89663009727C1 /* README.md */,
 				6AE0CFFA1DF89663009727C1 /* WKRCore_PasswordStrength_Worker.podspec */,
 				6AE0CFF51DF89601009727C1 /* Classes */,

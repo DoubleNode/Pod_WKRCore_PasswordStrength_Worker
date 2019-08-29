@@ -1,9 +1,11 @@
 //
 //  WKRCore_PasswordStrength_Worker.m
-//  DoubleNode Core
+//  DoubleNode Core Password Strength Workers
 //
 //  Created by Darren Ehlers on 2016/10/16.
-//  Copyright © 2016 Darren Ehlers and DoubleNode, LLC. All rights reserved.
+//  Copyright © 2016 Darren Ehlers and DoubleNode, LLC.
+//
+//  WKRCore_PasswordStrength_Worker is released under the MIT license. See LICENSE for details.
 //
 
 #import <DNCore/DNCUtilities.h>
